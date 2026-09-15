@@ -95,6 +95,8 @@ public class ProductService {
 
         productRepository.delete(existingProd);
         productCacheService.delete(id);
+
+
     }
 
     public ProductResponse mapToResponse(Product product){
